@@ -1,6 +1,3 @@
-# nodejs-practice
-Practice guide for node js for beginners
-
 # Node.js Practice Guide
 
 This guide is designed to help new developers get started with Node.js by providing a step-by-step approach to learning the basics. You'll begin with simple console logging and progress through variables, arrays, object manipulation, and asynchronous programming.
