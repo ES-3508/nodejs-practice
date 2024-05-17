@@ -187,7 +187,60 @@ First, ensure Node.js is installed. You can download it from the [official websi
     fetchData();
     ```
 
+## Different Types of Functions
+
+### 11. Standard Function
+
+1. Add a standard function to your `app.js`:
+
+    ```javascript
+    function add(a, b) {
+      return a + b;
+    }
+
+    console.log("Standard Function: ", add(2, 3)); // Output: 5
+    ```
+
+### 12. Arrow Function
+
+1. Add an arrow function to your `app.js`:
+
+    ```javascript
+    const subtract = (a, b) => {
+      return a - b;
+    }
+
+    console.log("Arrow Function: ", subtract(5, 2)); // Output: 3
+    ```
+
+### 13. Async/Await Function
+
+1. Add an async/await function to your `app.js`:
+
+    ```javascript
+    async function fetchData() {
+      try {
+        let response = await fetch('https://api.example.com/data');
+        let data = await response.json();
+        console.log(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    }
+
+    fetchData();
+    ```
+
+### 14. Inline Function
+
+1. Add an inline function to your `app.js`:
+
+    ```javascript
+    setTimeout(function() {
+      console.log("This is an inline function.");
+    }, 1000);
+    ```
+
 By following these steps, you can gradually build your knowledge and skills in Node.js, from basic console logging to more advanced topics like asynchronous programming and array manipulation.
 
 Happy coding!
-
